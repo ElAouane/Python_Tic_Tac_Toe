@@ -1,3 +1,4 @@
+from Tic_Tac_Toe_Func_Core import *
 #===========GLOBAL VARIABLES===========
 
 
@@ -136,6 +137,7 @@ def change_player():
     elif current_player == "O":
         current_player = "X"
     return
+
 
 
 start_game()
